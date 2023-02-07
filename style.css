@@ -1,0 +1,181 @@
+
+body{
+    background-image: url(bcg4.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+ /* Container for the entire page */
+     .container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    h1{
+        font-variant: normal;
+    }
+
+      /* Header */
+      header {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(243, 214, 243);
+        font-size: 30px;
+        color: rgb(68, 68, 68);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+
+      /* Main content */
+      main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 20px;
+        height: 100%;
+      }
+
+      /* Card design */
+      .card {
+        background-color: rgb(243, 214, 243);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+  
+      }
+      .card1 {
+        background-image: url(1.jpg);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+
+      }
+
+      .card2 {
+        background-image: url(bgc5.jpg);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+
+      }
+      .card3 {
+        background-image: url(bgc6.jpg);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+
+      }
+      .card4 {
+        background-image: url(bgc7.jpg);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+
+      }
+      .card5 {
+        background-image: url(bcg8.jpg);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+ 
+      }
+      .card6 {
+        background-image: url(desire.jpg);
+        box-shadow: 0 10px 10px rgba(96, 205, 224, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+ 
+      }
+      /* Styles for the card header */
+      .card h3 {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      /* Styles for the card image */
+      .card img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+      }
+
+      /* Styles for the card description */
+      .card p {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #333;
+      }
+    
+      /* footer */
+      
+      footer {
+        text-align: center;
+        font-style: italic;
+        color: #fff;
+      }
+
+      /* images buttons */
+
+      .img-btn {
+        background-color: rgb(255, 255, 255);
+        font-size: small;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10 ;
+      }
+
+      a {
+        color: beige;
+        border-style: double;
+        border-color: rgb(177, 173, 173);
+      }
+
+            /* media query for larger screens */
+            @media only screen and (min-width: 768px) {
+                .container {
+                  width: 60%;
+                }
+              }
+        
+            /* media query for smaller screens */
+            @media only screen and (max-width: 576px) {
+                .container {
+                  width: 90%;
+                }
+              }
+              @media only screen and (min-width: 425px) {
+                .container {
+                  width: 90%;
+                }
+              }
+              @media (max-width: 480px) {
+                .text {
+                  font-size: 16px;
+                }
+              }
+              @media screen and (max-width: 480px) {
+                .text {
+                  font-size: 16px;
+                }
+              }
+              @media (max-width: 480px) {
+                .text {
+                  font-size: 16px;
+                }
+              }
+
+             /* Copyright © Klim Garzon 2023 */

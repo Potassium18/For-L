@@ -1,0 +1,84 @@
+
+
+.poem1 {
+    background-image: url(1.jpg);
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+.poem2 {
+    background-image: url(bgc5.jpg);
+    color: rgb(224, 224, 224);
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+.poem3 {
+    background-image: url(bgc6.jpg);
+    color: black;
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+.poem4 {
+    background-image: url(bgc7.jpg);
+    color: beige;
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+.poem5 {
+    background-image: url(poem5bcg.jpeg);
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+.poem6 {
+    background-image: url(desire.jpg);
+    color: antiquewhite;
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+            /* media query for larger screens */
+            @media only screen and (min-width: 768px) {
+                .container {
+                  width: 60%;
+                }
+              }
+        
+            /* media query for smaller screens */
+            @media only screen and (max-width: 576px) {
+                .container {
+                  width: 90%;
+                }
+              }
+
+
+              /* Copyright © Klim Garzon 2023 */
